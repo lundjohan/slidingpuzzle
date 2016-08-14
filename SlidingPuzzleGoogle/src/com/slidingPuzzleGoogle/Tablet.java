@@ -114,7 +114,7 @@ public class Tablet {
 				}
 		}
 		// vektor lösbar?
-		return (serie.size() % 2 != inversions % 2);
+		return serie.size() % 2 != inversions % 2;
 	}
 
 	// gets
